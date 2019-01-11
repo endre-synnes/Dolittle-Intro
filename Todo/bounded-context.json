@@ -1,0 +1,19 @@
+{
+  "application": "76c6326e-9f25-19a7-656e-b6ae1cf3d5eb",
+  "boundedContext": "7c555b62-caa0-f5a7-34d5-94a6bdc25db9",
+  "boundedContextName": "Todo",
+  "resources": {
+    "readModels": {
+      "production": "MongoDB",
+      "development": "MongoDB"
+    },
+    "eventStore": {
+      "production": "MongoDB",
+      "development": "MongoDB"
+    }
+  },
+  "core": {
+    "language": "csharp"
+  },
+  "interaction": []
+}

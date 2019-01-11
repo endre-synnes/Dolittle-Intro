@@ -1,0 +1,14 @@
+{
+    "any": {
+        "concepts": "Concepts",
+        "domain": "Domain",
+        "events": "Events",
+        "read": "Read"
+    },
+    "csharp": {
+        "concepts": "Concepts",
+        "domain": "Domain",
+        "events": "Events",
+        "read": "Read"
+    }
+}
