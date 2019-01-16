@@ -21,7 +21,7 @@ class TodoForm extends Component {
         return(
             <div>
                 <h2>Insert data:</h2>
-                <form onSubmit={this.handleSubmit}>
+                <form onSubmit={this.handleSubmit} className="form-grid">
                 <label>
                     <h4>Text:</h4>
                     <input type="text" name="text" onChange={this.handleChange}/>

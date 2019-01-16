@@ -1,15 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
-import Home from './components/Home';
+import Header from './components/sub/Header';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Home/>
-      </div>
-    );
-  }
-}
-
-export default App;
+export default ({ children }) => {
+	return (
+		<div>
+      <Header/>
+			{children}
+		</div>
+	);
+};

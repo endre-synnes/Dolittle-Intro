@@ -2,10 +2,10 @@ import React from "react";
 
 const Todo = (props) => (
     
-    <div>
+    <div className="todo-grid">
         <h3>{props.text}</h3>
-        <p>{props.category}</p>
-        <button onClick={() => props.delete(props.id)}>Delete</button>
+        <p>Category: {props.category}</p>
+        <button className="delete-btn" onClick={() => props.delete(props.id)}>X</button>
     </div>
     
 )
