@@ -54,6 +54,12 @@ namespace Core
                 });
             }
 
+            app.UseCors(builder => builder
+                   .AllowAnyHeader()
+                   .AllowAnyMethod()
+                   .AllowAnyOrigin()
+                   .AllowCredentials());
+
             app.UseDefaultFiles();
             app.UseStaticFiles();
 
