@@ -14,7 +14,7 @@ namespace Domain.Todo
         public void Handle(CommandCreateTodo cmd)
         {
             var root = _aggregate.Get(cmd.Id);
-            root.CreateTodo(cmd.Text, cmd.Category);
+            root.CreateTodo(cmd.Text, cmd.Category, cmd.Status);
         }
         
     }

@@ -20,7 +20,8 @@ namespace Read.Todo
             {
                 Id = @event.Id,
                 Text = @event.Text,
-                Category = @event.Category
+                Category = @event.Category,
+                Status = @event.Status
             };
             _repository.Insert(todo);
         }

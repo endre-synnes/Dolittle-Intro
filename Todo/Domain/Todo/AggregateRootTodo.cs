@@ -13,9 +13,10 @@ namespace Domain.Todo
 
         public void CreateTodo(
             TodoText text,
-            TodoCategory category)
+            TodoCategory category,
+            TodoStatus status)
         {
-            Apply(new TaskCreated(EventSourceId, text, category));
+            Apply(new TaskCreated(EventSourceId, text, category, status));
         }
     }
 }

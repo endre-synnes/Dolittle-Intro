@@ -13,5 +13,6 @@ export class CommandCreateTodo extends Command
         this.id = '00000000-0000-0000-0000-000000000000';
         this.text = '';
         this.category = '';
+        this.status = false;
     }
 }

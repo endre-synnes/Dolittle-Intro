@@ -8,6 +8,7 @@ namespace Domain.Todo
         public TodoId Id { get; set; }
         public TodoText Text { get; set;}
         public TodoCategory Category { get; set;}
+        public TodoStatus Status { get; set; }
     }
     
 }
